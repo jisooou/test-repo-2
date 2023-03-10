@@ -12,7 +12,15 @@ int main(void)
     printf("%d + %d = %d 입니다.\n", num1, num2, num1 + num2); 
     printf("%d - %d = %d 입니다.\n", num1, num2, num1 - num2); 
     printf("%d * %d = %d 입니다.\n", num1, num2, num1 * num2); 
-    printf("%d / %d = %d 입니다.\n", num1, num2, num1 / num2); 
+    
+    if num2 == 0
+    {
+        printf(" 오류! 두번째 숫자가 0이면 나눗셈이 불가능합니다!\n");
+    }
+    else 
+    {
+        printf("%d / %d = %d 입니다.\n", num1, num2, num1 / num2); 
+    }
   
     return 0;
 }
