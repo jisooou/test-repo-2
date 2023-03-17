@@ -21,6 +21,6 @@ int main(void)
     {
         printf("[나눗셈]\t%d / %d = %d 입니다.\n", num1, num2, num1 / num2); 
     }
-  
+    printf("감사합니다!");
     return 0;
 }
