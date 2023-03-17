@@ -24,6 +24,6 @@ int main(void)
     }
 
     printf("감사합니다!");
-    
+    printf("다음에 또 이용해주세요!");
     return 0;
 }
