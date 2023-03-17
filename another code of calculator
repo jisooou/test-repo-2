@@ -22,6 +22,7 @@ int main(void)
     {
         printf("%d / %d = %d 입니다.\n", num1, num2, num1 / num2); 
     }
-  
+    printf("감사합니다!");
+    printf("다음에 또 잉용해 주세요!");
     return 0;
 }
